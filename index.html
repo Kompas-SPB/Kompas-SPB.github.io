@@ -11,7 +11,9 @@
       </iframe>
         <script type="text/javascript">
           var iframe = document.getElementById('ytplayer');
+            console.log(iframe.src)
           iframe.src = iframe.src + window.location.search;​​​​​​​​​​​​​​​​
+            console.log(iframe.src)
           iframe.contentWindow.location.reload();
         </script>
     </body>
